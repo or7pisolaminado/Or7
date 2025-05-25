@@ -68,10 +68,89 @@ Piso laminado
     const nome = document.getElementById('nome').value;
     const tel = document.getElementById('telefone').value;
     const end = document.getElementById('endereco').value;
-    const msg = document.getElementById('mensagem').value;
+    const msg = <nav aria-label="Breadcrumb">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="https://www.persitoldosrj.com">
+        <span itemprop="name">Home</span></a>
+      <meta itemprop="position" content="1">
+    </li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="/pisos-laminados">
+        <span itemprop="name">Pisos Laminados</span></a>
+      <meta itemprop="position" content="2">
+    </li>
+  </ol>
+</nav>document.getElementById('mensagem').value;
     const texto = `Olá, me chamo ${nome}. Meu telefone é ${tel}. Quero serviço no endereço: ${end}. Detalhes: ${msg}`;
     const link = `https://wa.me/5521964364469?text=${encodeURIComponent(texto)}`;
     window.open(link, '_blank');
   }
 </script></body>
 </html>
+https://www.persitoldosrj.com
+<img src="piso-laminado-duratex.jpg" 
+<h1>Piso Laminado Duratex Carmem 8mm - Preço e Instalação</h1>
+<div itemscope itemtype="https://schema.org/Product">
+  <h2>Características Técnicas</h2>
+  <ul>
+    <li><span itemprop="material">Material: HDF de Alta Densidade</span></li>
+    <li><span itemprop="width">Espessura: 8mm</span></li>
+    <li><span itemprop="color">Cor: Carmem (Tonalidade Quente)</span></li>
+  </ul>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeGoodsStore",
+  "name": "Persitoldos RJ - Pisos Laminados",
+  "url": "https://www.persitoldosrj.com",
+  "priceRange": "R$59,90 - R$199,90/m²",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Álvares de Azevedo, 495",
+    "addressLocality": "Rio de Janeiro",
+    "addressRegion": "RJ"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-22.876543",
+    "longitude": "-43.123456"
+  }
+}
+</script>
+  
+     alt="Piso Laminado Duratex Carmem 8mm - Loja no Rio de Janeiro" 
+     loading="lazy"
+     width="800"
+     height="600">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Piso Laminado Duratex Carmem 8mm",
+  "image": "https://www.persitoldosrj.com/images/piso-duratex-carmem.jpg",
+  "description": "Piso laminado antiderrapante com tratamento UV, ideal para áreas residenciais. 25 anos de garantia.",
+  "brand": "Duratex",
+  "sku": "DUR-CARM-8MM",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "BRL",
+    "price": "89.90",
+    "priceValidUntil": "2024-12-31",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Persitoldos RJ"
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "152"
+  }
+}
+</script>
+
+
+     
